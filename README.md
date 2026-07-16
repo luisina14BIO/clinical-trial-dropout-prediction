@@ -75,16 +75,43 @@ Business Conclusions
 
 ## 📁 Project Structure
 
-> 🚧 Project structure is currently under development.
+```text
+clinical-trial-dropout-prediction/
+│
+├── data/
+│   ├── raw/              # Original dataset
+│   └── processed/        # Cleaned datasets (future)
+│
+├── notebooks/            # Jupyter/Colab notebooks
+│
+├── models/               # Trained models (future)
+│
+├── reports/              # Figures and final report
+│
+├── src/                  # Reusable Python functions (future)
+│
+├── README.md
+└── ROADMAP.md
+```
 
 ---
 
 ## 📅 Project Status
 
-🟡 Project initialization.
+🟡 Current Phase
 
-Current phase:
+✅ Project Setup
 
-**Project Setup**
+✅ Data Understanding
+
+⬜ Exploratory Data Analysis
+
+⬜ Data Preparation
+
+⬜ Modeling
+
+⬜ Evaluation
+
+⬜ Conclusions
 
 ---
