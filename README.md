@@ -15,8 +15,7 @@ The project follows industry best practices for:
 - 🤖 Machine Learning modeling
 - ⚙️ Hyperparameter tuning
 - 📈 Model evaluation
-- 🔍 Model interpretability
-- 📚 Documentation and reproducibility
+- 📚 Documentation
 
 ---
 
@@ -31,12 +30,13 @@ Predicting which participants are at higher risk of leaving a clinical trial can
 ## 🎯 Project Objectives
 
 - Explore and understand the dataset
-- Build a reproducible preprocessing pipeline
+- Identify relevant patterns and potential data-quality issues
+- Build a reproducible data preprocessing pipeline
+- Engineer meaningful features from the available clinical data
 - Compare multiple Machine Learning algorithms
-- Optimize model performance
-- Interpret model predictions using SHAP
-- Follow a professional Data Science workflow
-
+- Optimize model performance through hyperparameter tuning
+- Evaluate model performance using appropriate classification metrics
+- Identify the main factors associated with dropout prediction
 ---
 
 ## 🛠️ Tech Stack
@@ -48,29 +48,30 @@ Predicting which participants are at higher risk of leaving a clinical trial can
 - Scikit-learn
 - Matplotlib
 - Seaborn
-- SHAP
-- Git & GitHub
 
 ---
 
 ## 🚀 Project Workflow
 
-```text
-Context
-   ↓
-Dataset
-   ↓
+Business Context
+       ↓
+Dataset Understanding
+       ↓
 Exploratory Data Analysis (EDA)
-   ↓
+       ↓
+Data Quality Assessment
+       ↓
+Feature Engineering
+       ↓
 Data Preprocessing
-   ↓
+       ↓
 Machine Learning Modeling
-   ↓
+       ↓
+Hyperparameter Tuning
+       ↓
 Model Evaluation
-   ↓
-Business Conclusions
-```
-
+       ↓
+Business & Clinical Conclusions
 ---
 
 ## 📁 Project Structure
@@ -104,7 +105,7 @@ clinical-trial-dropout-prediction/
 
 ✅ Data Understanding
 
-⬜ Exploratory Data Analysis
+✅Exploratory Data Analysis
 
 ⬜ Data Preparation
 
