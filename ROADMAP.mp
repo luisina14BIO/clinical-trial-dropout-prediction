@@ -10,7 +10,7 @@
 - [x] Data quality assessment
 
 ## Phase 2
-- [ ] Exploratory Data Analysis
+- [x] Exploratory Data Analysis
 
 ## Phase 3
 - [ ] Data preprocessing
