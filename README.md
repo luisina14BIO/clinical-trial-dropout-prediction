@@ -75,7 +75,9 @@ Model Evaluation
        ↓
 Business & Clinical Conclusions
 
-## 📁 Project Structure
+---
+
+## 📁 **Project Structure**
 
 ```text
 clinical-trial-dropout-prediction/
