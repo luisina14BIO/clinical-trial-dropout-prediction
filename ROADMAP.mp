@@ -13,8 +13,8 @@
 - [x] Exploratory Data Analysis
 
 ## Phase 3
-- [ ] Data preprocessing
-- [ ] Feature engineering
+- [x] Data preprocessing
+- [x] Feature engineering
 
 ## Phase 4
 - [ ] Train baseline models
