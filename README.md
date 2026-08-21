@@ -53,7 +53,7 @@ Predicting which participants are at higher risk of leaving a clinical trial can
 
 ## 🚀 Project Workflow
 
-Business Context
+###Business Context
        ↓
 Dataset Understanding
        ↓
@@ -105,9 +105,9 @@ clinical-trial-dropout-prediction/
 
 ✅ Data Understanding
 
-✅Exploratory Data Analysis
+✅ Exploratory Data Analysis
 
-⬜ Data Preparation
+✅ Data Preparation
 
 ⬜ Modeling
 
