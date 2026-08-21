@@ -48,12 +48,14 @@ Predicting which participants are at higher risk of leaving a clinical trial can
 - Scikit-learn
 - Matplotlib
 - Seaborn
+- Joblib
 
 ---
 
 ## 🚀 Project Workflow
 
-###Business Context
+```text
+Business Context
        ↓
 Dataset Understanding
        ↓
@@ -72,7 +74,6 @@ Hyperparameter Tuning
 Model Evaluation
        ↓
 Business & Clinical Conclusions
----
 
 ## 📁 Project Structure
 
