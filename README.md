@@ -69,7 +69,7 @@ From a Data Science perspective, participant dropout can therefore be formulated
 ```text
 Dropout = 0 → Participant remains in the trial
 Dropout = 1 → Participant drops out
-
+```
 ---
 
 ## 🎯 Project Objectives
