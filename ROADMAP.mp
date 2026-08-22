@@ -17,13 +17,12 @@
 - [x] Feature engineering
 
 ## Phase 4
-- [ ] Train baseline models
-- [ ] Hyperparameter tuning
+- [x] Train baseline model
 
 ## Phase 5
-- [ ] Model evaluation
-- [ ] SHAP interpretation
+- [x] Model evaluation
+- [x] Hyperparameter tuning
 
 ## Phase 6
-- [ ] Final documentation
-- [ ] Portfolio review
+- [x] Final documentation
+- [x] Conclusions
