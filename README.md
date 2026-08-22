@@ -1,6 +1,34 @@
 # 🧬 Clinical Trial Dropout Prediction
 
-> **End-to-End Machine Learning project focused on predicting patient dropout in clinical trials.**
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-blue)
+![Scikit--learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+---
+
+## 📌 Project Overview
+
+Participant dropout is an important challenge in clinical research. Loss of participants during a clinical trial can reduce the effective sample size, increase study costs, generate missing data and potentially affect the reliability of the final analysis.
+
+This project explores whether Machine Learning can be used to identify participants at increased risk of dropping out of a clinical trial.
+
+The project follows an end-to-end Data Science workflow, from understanding the clinical context and assessing data quality to feature engineering, preprocessing, model development, evaluation and business recommendations.
+
+An important objective of the project is not only to build a predictive model, but also to determine whether the available data contain sufficient information to support reliable individual-level dropout prediction.
+
+---
+
+
+
+---
+
+# 🧬 Clinical Trial Dropout Prediction
+
+> **Can clinical trial data help identify participants at risk of dropout?**
+
+An end-to-end Machine Learning project focused on analyzing participant dropout in clinical trials and evaluating whether demographic, clinical and trial-related variables provide enough predictive signal to build a robust classification model.
 
 ---
 
@@ -18,12 +46,49 @@ The project follows industry best practices for:
 - 📚 Documentation
 
 ---
+## 🧬 Clinical Trial Context
 
-## 💼 Business Problem
+Clinical trials are a fundamental component of the drug development process. Before a treatment can be approved for widespread use, it must undergo structured evaluation of its safety, efficacy and overall benefit-risk profile.
 
-Patient dropout is one of the biggest challenges in clinical research.
+Phase III randomized controlled clinical trials are generally designed to confirm the efficacy and safety of a treatment in a broader patient population and generate evidence that can support regulatory decision-making.
 
-Predicting which participants are at higher risk of leaving a clinical trial can help research teams improve participant retention, reduce study costs and increase data quality.
+Participants are assigned to predefined treatment groups and followed throughout the study according to a standardized protocol. During this process, clinical measurements, treatment information, adverse events and other study-related data are collected.
+
+Maintaining participant retention is essential because clinical trials depend on participants completing scheduled visits and providing the information required by the study protocol.
+
+
+## 💼 The Dropout Problem
+
+Participant dropout, also referred to as participant attrition, occurs when a participant leaves a clinical trial before completing the study according to the predefined protocol.
+
+Participants may discontinue for many different reasons, including:
+
+- Adverse events
+- Treatment-related issues
+- Lack of adherence
+- Missed visits
+- Logistical difficulties
+- Changes in personal circumstances
+- Patient preferences
+- Operational issues
+
+High dropout rates can have important consequences for clinical research.
+
+They may:
+
+- Reduce the effective sample size
+- Decrease statistical power
+- Increase study costs
+- Generate missing data
+- Extend recruitment periods
+- Delay study completion
+- Potentially introduce bias if dropout is not random
+
+From a Data Science perspective, participant dropout can therefore be formulated as a **binary classification problem**.
+
+```text
+Dropout = 0 → Participant remains in the trial
+Dropout = 1 → Participant drops out
 
 ---
 
@@ -112,10 +177,10 @@ clinical-trial-dropout-prediction/
 
 ✅ Data Preparation
 
-⬜ Modeling
+✅ Modeling
 
-⬜ Evaluation
+✅ Evaluation
 
-⬜ Conclusions
+✅ Conclusions
 
 ---
