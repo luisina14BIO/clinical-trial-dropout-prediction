@@ -1,30 +1,10 @@
 # 🧬 Clinical Trial Dropout Prediction
-
-
+---
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-blue)
 ![Scikit--learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
-
 ---
-
-## 📌 Project Overview
-
-Participant dropout is an important challenge in clinical research. Loss of participants during a clinical trial can reduce the effective sample size, increase study costs, generate missing data and potentially affect the reliability of the final analysis.
-
-This project explores whether Machine Learning can be used to identify participants at increased risk of dropping out of a clinical trial.
-
-The project follows an end-to-end Data Science workflow, from understanding the clinical context and assessing data quality to feature engineering, preprocessing, model development, evaluation and business recommendations.
-
-An important objective of the project is not only to build a predictive model, but also to determine whether the available data contain sufficient information to support reliable individual-level dropout prediction.
-
----
-
-
-
----
-
-# 🧬 Clinical Trial Dropout Prediction
 
 > **Can clinical trial data help identify participants at risk of dropout?**
 
